@@ -16,6 +16,13 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@myfamily/auth/*": ["src/auth/*"],
+      "@myfamily/common/*": ["src/common/*"],
+      "@myfamily/config/*": ["src/config/*"],
+      "@myfamily/models/*": ["src/models/*"],
+      "@myfamily/providers/*": ["src/providers/*"],
+    }
   }
 }

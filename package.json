@@ -73,6 +73,13 @@
       "**/*.(t|j)s"
     ],
     "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "moduleNameMapper": {
+      "^@/myfamily/auth/(.*)$": "<rootDir>/../src/auth/$1",
+      "^@/myfamily/common/(.*)$": "<rootDir>/../src/common/$1",
+      "^@/myfamily/config/(.*)$": "<rootDir>/../src/config/$1",
+      "^@/myfamily/models/(.*)$": "<rootDir>/../src/models/$1",
+      "^@/myfamily/providers/(.*)$": "<rootDir>/../src/providers/$1"
+    }
   }
 }
